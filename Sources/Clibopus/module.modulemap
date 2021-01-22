@@ -1,0 +1,5 @@
+module Clibopus [system] {
+  header "/usr/local/opt/opus/include/opus/opus.h"
+  link "opus"
+  export *
+}
